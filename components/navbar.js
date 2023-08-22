@@ -7,15 +7,15 @@ const Navbar = () => {
   const navigation = ["Game Info", "News", "Support"];
 
   return (
-    <div className="w-full bg-black bg-opacity-5">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
+    <div className="w-full bg-black bg-opacity-5 text-white">
+      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0 text-white">
         {/* Logo  */}
         <Disclosure>
           {({ open }) => (
             <>
-              <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
+              <div className="flex flex-wrap items-center justify-between w-full lg:w-auto text-white">
                 <Link href="/">
-                  <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 text-gray-100">
+                  <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 text-white">
                     <span>
                       <Image
                         src="/img/logo.svg"
@@ -31,7 +31,7 @@ const Navbar = () => {
 
                 <Disclosure.Button
                   aria-label="Toggle Menu"
-                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none text-gray-300 focus:bg-trueGray-700"
+                  className="px-2 py-1 ml-auto text-white rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none text-white focus:bg-trueGray-700"
                 >
                   <svg
                     className="w-6 h-6 fill-current"
@@ -60,7 +60,7 @@ const Navbar = () => {
                       <Link
                         key={index}
                         href="/"
-                        className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:bg-gray-800 focus:outline-none"
+                        className="w-full px-4 py-2 -ml-4 text-white rounded-md text-white hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:bg-gray-800 focus:outline-none text-white"
                       >
                         {item}
                       </Link>
