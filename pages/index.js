@@ -25,9 +25,7 @@ const Home = () => {
       </Head>
 
       <Hero />
-      <SectionTitle pretitle="Watch" title="Gameplay">
-        {" "}
-      </SectionTitle>
+      <SectionTitle pretitle="Watch" title="Gameplay"></SectionTitle>
       <Video />
 
       <SectionTitle
