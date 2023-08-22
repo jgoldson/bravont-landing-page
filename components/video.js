@@ -29,7 +29,7 @@ const Video = () => {
           )}
           {playVideo && (
             <iframe
-              src="https://youtu.be/_6ADoeowbhc?t=12"
+              src="https://youtube.com/embed/_6ADoeowbhc?start=12"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
