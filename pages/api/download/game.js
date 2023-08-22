@@ -2,7 +2,7 @@ import axios from "axios";
 import { NextApiRequest, NextApiResponse } from "next";
 import { Readable } from "stream";
 
-async function handler(req: NextApiRequest, res: NextApiResponse) {
+async function handler(req, res) {
   // get the filename for the file that the user is trying to download
   const filename = req.query.filename;
 
@@ -11,9 +11,13 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf";
 
   // use axios to get a Readable stream response
-  const { data } = await axios.get<Readable>(DUMMY_URL, {
-    responseType: "stream",
-  });
+  const { data } =
+    (await axios.get) <
+    Readable >
+    (DUMMY_URL,
+    {
+      responseType: "stream",
+    });
 
   res.setHeader("content-disposition", `attachment; filename="${filename}"`);
 
@@ -22,4 +26,3 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
 }
 
 export default handler;
-
