@@ -14,7 +14,7 @@ import PopupWidget from "../components/popupWidget";
 
 const Home = () => {
   return (
-    <>
+    <div className="bg-black bg-opacity-85">
       <Head>
         <title>Bravont - Next Gen Shooter</title>
         <meta
@@ -41,7 +41,7 @@ const Home = () => {
       ></SectionTitle>
       <Faq />
       <Cta />
-    </>
+    </div>
   );
 };
 

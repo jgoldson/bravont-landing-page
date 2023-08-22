@@ -11,8 +11,8 @@ const Testimonials = () => {
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 bg-trueGray-800 text-white">
+            <p className="text-2xl text-white leading-normal ">
               This is the game I've been waiting for.
             </p>
 
@@ -21,7 +21,7 @@ const Testimonials = () => {
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+            <p className="text-2xl text-white leading-normal ">
               Crazy impressive graphics coming out of an indie studio.
             </p>
 
@@ -30,7 +30,7 @@ const Testimonials = () => {
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+            <p className="text-2xl text-white leading-normal ">
               This game looks awesome and I can't wait for multiplayer.
             </p>
 
@@ -55,8 +55,8 @@ function Avatar(props) {
         />
       </div>
       <div>
-        <div className="text-lg font-medium">{props.name}</div>
-        <div className="text-gray-600 text-gray-400">{props.title}</div>
+        <div className="text-lg font-medium text-white">{props.name}</div>
+        <div className="text-white text-white">{props.title}</div>
       </div>
     </div>
   );
