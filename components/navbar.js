@@ -18,10 +18,10 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 text-white">
                     <span>
                       <Image
-                        src="/img/logo.svg"
+                        src="/img/bravont/Bwhite.png"
                         alt="N"
-                        width="32"
-                        height="32"
+                        width="16"
+                        height="16"
                         className="w-8"
                       />
                     </span>
