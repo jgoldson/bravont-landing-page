@@ -31,7 +31,7 @@ const MailingList = (props) => {
     <div className="my-5">
       <hr className="my-5" />
       <label className="label">
-        <p className="text-lg max-w-xl text-left m-auto leading-9">
+        <p className="text-white text-lg max-w-xl text-left m-auto leading-9">
           Want to be the first to know when Bravont launches and get exclusive
           access to the Beta?
         </p>
