@@ -25,6 +25,10 @@ const Home = () => {
       </Head>
 
       <Hero />
+      <SectionTitle
+        pretitle="What"
+        title="Bravont is a Next Gen Multiplayer Tactical Shooter where players can manipulate gravity to gain new advantages on their opponents"
+      ></SectionTitle>
       <SectionTitle pretitle="Watch" title="Gameplay"></SectionTitle>
       <Video />
 
