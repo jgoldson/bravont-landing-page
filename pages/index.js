@@ -21,7 +21,7 @@ const Home = () => {
           name="description"
           content="Bravont is a next generation shooter. Manipulate gravity to destroy your foes"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/img/bravont/Bwhite.ico" />
       </Head>
 
       <Hero />
