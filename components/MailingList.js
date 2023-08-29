@@ -60,7 +60,7 @@ const MailingList = (props) => {
               Join Beta Waitlist
             </button>
           ) : (
-            <h1 className="text-lg bg-green-500 text-center">
+            <h1 className="text-lg text-white bg-green-500 text-center">
               Sign Up Successful!
             </h1>
           )

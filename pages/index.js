@@ -29,7 +29,7 @@ const Home = () => {
         pretitle="What"
         title="Bravont is a Next Gen Multiplayer Tactical Shooter where players can manipulate gravity to gain new advantages on their opponents"
       ></SectionTitle>
-      <SectionTitle pretitle="Watch" title="Gameplay"></SectionTitle>
+      <SectionTitle pretitle="Watch" title="Trailer & Gameplay"></SectionTitle>
       <Video />
 
       <SectionTitle
